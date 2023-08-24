@@ -26,7 +26,7 @@ function App() {
       >
         <h1>ToDo App</h1>
 
-        <div className="top">
+        <div className="top mt-3 d-flex justify-content-center gap-1 ">
           <input
             type="text"
             placeholder="Add ToDos..."
@@ -43,7 +43,7 @@ function App() {
             }>{isUpdating ? "Update" : "Add"}</button>
         </div>
 
-        <div className="list">
+        <div className="list w-50 mx-auto">
           {toDo.map((item) => (
             <ToDo
               key={item._id}

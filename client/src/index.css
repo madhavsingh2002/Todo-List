@@ -10,10 +10,7 @@ body {
   background-position: center;
 }
 
-.list{
-  width: 50%;
-  margin-inline: auto;
-}
+
 
 h1{
   margin-top: 1rem;
@@ -21,12 +18,7 @@ h1{
   text-align: center;
 }
 
-.top{
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
+ 
 
 input{
   border: none;
